@@ -1,8 +1,8 @@
-#Insurance Cost Analysis
+## Insurance Cost Analysis
 
 A data analysis and machine learning project that explores which factors drive annual medical insurance costs, and builds predictive models to estimate them.
 
-## 📋 Overview
+## Overview
 
 This project follows a complete data science workflow applied to a medical insurance dataset with ~2,700 records:
 
