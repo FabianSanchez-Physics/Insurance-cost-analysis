@@ -1,4 +1,4 @@
-# 🏥 Insurance Cost Analysis
+#Insurance Cost Analysis
 
 A data analysis and machine learning project that explores which factors drive annual medical insurance costs, and builds predictive models to estimate them.
 
@@ -11,7 +11,7 @@ This project follows a complete data science workflow applied to a medical insur
 3. **Model Development** — Linear Regression (single & multi-variable), Polynomial pipeline
 4. **Model Refinement** — Ridge Regression to improve generalization
 
-## 📊 Dataset
+## Dataset
 
 | Feature | Description | Type |
 |---|---|---|
@@ -25,13 +25,13 @@ This project follows a complete data science workflow applied to a medical insur
 
 **Source:** IBM Developer Skills Network — Data Analysis with Python (Coursera)
 
-## 🔑 Key Findings
+## Key Findings
 
 - **Smoking status** is the single strongest predictor of insurance charges
 - A **polynomial pipeline** (degree=2) achieves the best R² score (~0.845)
 - **Ridge regression** improves generalization on unseen data vs. plain linear regression
 
-## 📈 Model Results
+## Model Results
 
 | Model | R² Score |
 |---|---|
@@ -41,7 +41,7 @@ This project follows a complete data science workflow applied to a medical insur
 | Ridge Regression (α=0.1) | ~0.676 |
 | Ridge + Polynomial Features (degree=2) | ~0.784 |
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3**
 - `pandas` — data manipulation
@@ -49,7 +49,7 @@ This project follows a complete data science workflow applied to a medical insur
 - `seaborn` / `matplotlib` — data visualization
 - `scikit-learn` — machine learning models and pipelines
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
@@ -65,7 +65,7 @@ jupyter notebook insurance_cost_analysis.ipynb
 
 > The dataset is loaded directly from a public URL — no local file needed.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 insurance-cost-analysis/
